@@ -26,8 +26,8 @@ import java.text.DecimalFormat;
  * 博客：http://blog.csdn.net/axi295309066
  * 微博：AndroidDeveloper
  * <p>
- * Project_Name：pvzhm52
- * Package_Name：com.itheima.pvzhm52
+ * Project_Name：AndroidUtils2
+ * Package_Name：com.itheima.androidutils
  * Version：1.0
  * time：2016/2/15 11:50
  * des ：Android File工具类
