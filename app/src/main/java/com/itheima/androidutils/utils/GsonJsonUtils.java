@@ -1,17 +1,35 @@
 package com.itheima.androidutils.utils;
 
-import java.io.StringReader;
-import java.util.HashMap;
-import java.util.Map;
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
 
+import java.io.StringReader;
+import java.util.HashMap;
+import java.util.Map;
+
 /**
- * 该类作用及功能说明
- */
+ * ============================================================
+ * Copyright：Google有限公司版权所有 (c) 2017
+ * Author：   陈冠杰
+ * Email：    815712739@qq.com
+ * GitHub：   https://github.com/JackChen1999
+ * 博客：http://blog.csdn.net/axi295309066
+ * 微博：AndroidDeveloper
+ * <p>
+ * Project_Name：pvzhm52
+ * Package_Name：com.itheima.pvzhm52
+ * Version：1.0
+ * time：2016/2/15 11:50
+ * des ：Android Gson工具类
+ * gitVersion：$Rev$
+ * updateAuthor：$Author$
+ * updateDate：$Date$
+ * updateDes：${TODO}
+ * ============================================================
+ **/
+
 public class GsonJsonUtils {
 	public static Map<String, Object> parseJson2Map(String json) throws Exception {
 		Map<String, Object> map = new HashMap<String, Object>();

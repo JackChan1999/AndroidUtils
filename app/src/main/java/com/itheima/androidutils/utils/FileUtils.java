@@ -1,5 +1,9 @@
 package com.itheima.androidutils.utils;
 
+import android.content.Context;
+import android.os.Environment;
+import android.os.StatFs;
+
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
@@ -7,17 +11,32 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.text.DecimalFormat;
 
-import android.content.Context;
-import android.nfc.Tag;
-import android.os.Environment;
-import android.os.StatFs;
+/**
+ * ============================================================
+ * Copyright：Google有限公司版权所有 (c) 2017
+ * Author：   陈冠杰
+ * Email：    815712739@qq.com
+ * GitHub：   https://github.com/JackChen1999
+ * 博客：http://blog.csdn.net/axi295309066
+ * 微博：AndroidDeveloper
+ * <p>
+ * Project_Name：pvzhm52
+ * Package_Name：com.itheima.pvzhm52
+ * Version：1.0
+ * time：2016/2/15 11:50
+ * des ：Android File工具类
+ * gitVersion：$Rev$
+ * updateAuthor：$Author$
+ * updateDate：$Date$
+ * updateDes：${TODO}
+ * ============================================================
+ **/
 
 public class FileUtils {
 	protected static final String TAG = FileUtils.class.getSimpleName();

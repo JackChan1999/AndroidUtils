@@ -1,7 +1,5 @@
 package com.itheima.androidutils.utils;
 
-import java.io.InputStream;
-
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
@@ -18,10 +16,29 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.ImageView;
 
+import java.io.InputStream;
+
 /**
- * UI工具类
- * @version 1.0
- */
+ * ============================================================
+ * Copyright：Google有限公司版权所有 (c) 2017
+ * Author：   陈冠杰
+ * Email：    815712739@qq.com
+ * GitHub：   https://github.com/JackChen1999
+ * 博客：http://blog.csdn.net/axi295309066
+ * 微博：AndroidDeveloper
+ * <p>
+ * Project_Name：pvzhm52
+ * Package_Name：com.itheima.pvzhm52
+ * Version：1.0
+ * time：2016/2/15 11:50
+ * des ：Android UI工具类
+ * gitVersion：$Rev$
+ * updateAuthor：$Author$
+ * updateDate：$Date$
+ * updateDes：${TODO}
+ * ============================================================
+ **/
+
 public class UiUtilities {
 	/**
 	 * 设置view的显示状态

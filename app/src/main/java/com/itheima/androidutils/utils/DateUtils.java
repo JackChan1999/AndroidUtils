@@ -1,5 +1,7 @@
 package com.itheima.androidutils.utils;
 
+import com.itheima.androidutils.objs.WeekDateObj;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -8,7 +10,26 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
 
-import com.itheima.androidutils.objs.WeekDateObj;
+/**
+ * ============================================================
+ * Copyright：Google有限公司版权所有 (c) 2017
+ * Author：   陈冠杰
+ * Email：    815712739@qq.com
+ * GitHub：   https://github.com/JackChen1999
+ * 博客：http://blog.csdn.net/axi295309066
+ * 微博：AndroidDeveloper
+ * <p>
+ * Project_Name：pvzhm52
+ * Package_Name：com.itheima.pvzhm52
+ * Version：1.0
+ * time：2016/2/15 11:50
+ * des ：Android 日期工具类
+ * gitVersion：$Rev$
+ * updateAuthor：$Author$
+ * updateDate：$Date$
+ * updateDes：${TODO}
+ * ============================================================
+ **/
 
 public class DateUtils {
 	public static String[] timeFormat(long ms) {// 将毫秒数换算成x分x秒x毫秒
